@@ -27,8 +27,8 @@ def normalize_image(v):
 
 
 def main(argv):
-    inputfile = '/home/meupc/Documents/LAPISCO/ProjetosLocais/UnetHVSMR2016/data/membrane/train/labelnii/pat0-subvolume-tformed.nii'
-    outputfile = '/home/meupc/Documents/LAPISCO/ProjetosLocais/UnetHVSMR2016/data/membrane/train/label'
+    inputfile = 'pat0-subvolume-tformed.nii'
+    outputfile = 'folder'
     try:
         opts, args = getopt.getopt(argv, "hi:o:", ["ifile=", "ofile="])
     except getopt.GetoptError:
